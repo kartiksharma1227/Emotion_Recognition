@@ -1,0 +1,52 @@
+# Add generated files and large data to .gitignore
+# This prevents them from being committed to Git
+
+# Generated model files
+emotion_classifier_rf.pkl
+scaler.pkl
+
+# Data files
+data/*.h5
+*.h5
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
